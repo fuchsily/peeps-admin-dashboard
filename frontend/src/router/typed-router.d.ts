@@ -60,6 +60,13 @@ declare module 'vue-router/auto-routes' {
       { path: ParamValue<false> },
       | never
     >,
+    '/OverviewPage': RouteRecordInfo<
+      '/OverviewPage',
+      '/OverviewPage',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -106,6 +113,14 @@ declare module 'vue-router/auto-routes' {
         | never
       pathParamNames:
         | 'path'
+    }
+    'src/pages/OverviewPage.vue': {
+      routes:
+        | '/OverviewPage'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
   }
 
