@@ -1,5 +1,3 @@
-# peeps-admin-dashboard
-
 # peeps Admin-Dashboard
 
 Ein webbasiertes Admin-Dashboard für **peeps**, das als Prototyp entwickelt wurde, um administrative Prozesse zentral, übersichtlich und benutzerfreundlich abzubilden.
