@@ -1,1 +1,21 @@
-// app global css
+
+@use './variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: $font-family;
+  color: $text-primary;
+  background: $background;
+}
+
+.peeps-page-title {
+  font-size: $font-size-xl;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+
+.peeps-page-subtitle {
+  font-size: $font-size-sm;
+  color: $text-secondary;
+}

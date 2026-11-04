@@ -75,6 +75,9 @@ export default defineConfig((/* ctx */) => {
           { server: false },
         ],
       ],
+      env: {
+        clientPrefix: 'VITE_',
+      },
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#devserver

@@ -1,0 +1,55 @@
+
+@forward './quasar.variables';
+
+/* Additional brand colors */
+$primary-dark: #a527df;
+$primary-light: #f6e8ff;
+
+/* Background & surfaces */
+$background: #fbf7ea;
+$surface: #ffffff;
+
+/* Typography colors */
+$text-primary: #1a1a1a;
+$text-secondary: #666666;
+$text-muted: #999999;
+
+/* Borders */
+$border-color: #e8e5df;
+
+/* Gradient */
+$primary-gradient: linear-gradient(
+  90deg,
+  #ffe3aa 0%,
+  #f7cbff 100%
+);
+
+/* Typography */
+$font-family: 'Manrope', sans-serif;
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 20px;
+$font-size-xl: 28px;
+
+/* Spacing */
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+/* Border radius */
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-lg: 12px;
+$radius-xl: 16px;
+$radius-pill: 999px;
+
+/* Layout */
+$sidebar-width: 260px;
+$header-height: 68px;
+
+/* Shadows */
+$shadow-card: 0 2px 12px rgba(0, 0, 0, 0.035);
